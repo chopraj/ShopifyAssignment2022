@@ -2,6 +2,7 @@ import styled from 'styled-components'
 import { Fragment, useState, useEffect } from 'react'
 
 function App() {
+  const key = process.env.REACT_APP_API_KEY
 
  const [Prompt, setPrompt] = useState('')
 
@@ -22,10 +23,11 @@ function App() {
         presence_penalty: 0.0,
        };
 
-       const Response = await fetch("https://api.openai.com/v1/engines/text-curie-001/completions", {method: "POST",
+       const Response = await fetch("https://api.openai.com/v1/engines/text-curie-001/completions", 
+       {method: "POST",
        headers: {
          "Content-Type": "application/json",
-         Authorization: `Bearer ${process.env.REACT_APP_OPENAI_APIKEY}`,
+         Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
        },
        body: JSON.stringify(data),
       }).then(response => response.json()).then(data => {
