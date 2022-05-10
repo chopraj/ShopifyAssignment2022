@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.e6c13ad2.css",
-    "main.js": "/static/js/main.3fdac6b5.js",
-    "static/js/787.b9ab053e.chunk.js": "/static/js/787.b9ab053e.chunk.js",
-    "index.html": "/index.html",
-    "main.e6c13ad2.css.map": "/static/css/main.e6c13ad2.css.map",
-    "main.3fdac6b5.js.map": "/static/js/main.3fdac6b5.js.map",
-    "787.b9ab053e.chunk.js.map": "/static/js/787.b9ab053e.chunk.js.map"
+    "main.css": "/ShopifyAssignment2022/static/css/main.e6c13ad2.css",
+    "main.js": "/ShopifyAssignment2022/static/js/main.c5379e9f.js",
+    "static/js/787.b9ab053e.chunk.js": "/ShopifyAssignment2022/static/js/787.b9ab053e.chunk.js",
+    "index.html": "/ShopifyAssignment2022/index.html",
+    "main.e6c13ad2.css.map": "/ShopifyAssignment2022/static/css/main.e6c13ad2.css.map",
+    "main.c5379e9f.js.map": "/ShopifyAssignment2022/static/js/main.c5379e9f.js.map",
+    "787.b9ab053e.chunk.js.map": "/ShopifyAssignment2022/static/js/787.b9ab053e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.3fdac6b5.js"
+    "static/js/main.c5379e9f.js"
   ]
 }
