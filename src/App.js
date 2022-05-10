@@ -25,7 +25,7 @@ function App() {
        const Response = await fetch("https://api.openai.com/v1/engines/text-curie-001/completions", {method: "POST",
        headers: {
          "Content-Type": "application/json",
-         Authorization: `Bearer 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`,
+         Authorization: `Bearer ${process.env.REACT_APP_OPENAI_APIKEY}`,
        },
        body: JSON.stringify(data),
       }).then(response => response.json()).then(data => {
